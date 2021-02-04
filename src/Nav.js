@@ -27,7 +27,7 @@ function Nav() {
         />
         <img
           className="nav__avatar"
-          src="https://www.flaticon.com/svg/vstatic/svg/147/147140.svg?token=exp=1612401407~hmac=a06dd4dc90c5e6b56e9fea91e1b4c235"
+          src="https://cdn3.iconfinder.com/data/icons/vector-icons-6/96/256-512.png"
           alt=""
         />
       </div>
