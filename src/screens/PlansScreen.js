@@ -81,8 +81,8 @@ function PlansScreen() {
   };
 
   return (
-      <div className="plansScreen">
-          <br/>
+    <div className="plansScreen">
+      <br />
       {subscription && (
         <p>
           Renewal Data:{' '}

@@ -9,11 +9,11 @@ function LoginScreen() {
       <div className="loginScreen__background">
         <img
           className="loginScreen__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="https://i.pinimg.com/originals/dc/53/44/dc534483cfdf7b27b55ad369865deb1a.png"
           alt=""
         />
         <button onClick={() => setSignIn(true)} className="loginScreen__button">
-          Sign In
+          Sign In to your Movie Screen Account
         </button>
         <div className="loginScreen__gradient" />
 
@@ -21,15 +21,16 @@ function LoginScreen() {
                   {signIn ? (
                       <SignupScreen />
                   ) : (
-                    <>
-                    <h1>
-                      Unlimited Films and Television shows you like to binge watch{' '}
-                    </h1>
-                    <h2>Watch Anywhere, cancel ANYTIME</h2>
-                    <h3>
+              <>
+                <h1>Welcome to Movie Screen!</h1>
+                    <h2>
+                      A place to binge watch your favorite movies and television shows{' '}
+                    </h2>
+                    <h2>Watch Anywhere, cancel WHENEVER YOU WANT</h2>
+                    <h4>
                       Ready to watch? Enter your email to create or restart your
                       membership.
-                    </h3>
+                    </h4>
                     <div className="loginScreen__input">
                       <form>
                         <input type="email" placeholder="Email Address" />

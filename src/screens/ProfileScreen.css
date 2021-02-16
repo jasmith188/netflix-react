@@ -1,6 +1,6 @@
 .profileScreen {
   height: 100vh;
-  color: white;
+  color: black;
 }
 
 .profileScreen__body {
@@ -31,7 +31,8 @@
 }
 
 .profileScreen__details > h2 {
-  background-color: gray;
+  background-color: white;
+  color: black !important;
   padding: 15px;
   font-size: 15px;
   padding-left: 20px;
@@ -43,7 +44,7 @@
   margin-top: 5%;
   width: 100%;
   color: #fff;
-  background-color: #e50914;
+  background-color: #df5916;
   font-weight: 600;
   cursor: pointer;
   border: none;

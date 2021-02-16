@@ -25,7 +25,7 @@ function Nav() {
         <img
           onClick={()=> history.push("/")}
           className="nav__logo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="https://i.pinimg.com/originals/dc/53/44/dc534483cfdf7b27b55ad369865deb1a.png"
           alt=""
         />
         <img
