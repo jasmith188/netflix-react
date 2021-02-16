@@ -4,8 +4,9 @@ import Nav from '../Nav';
 import Banner from '../Banner';
 import Row from '../Row';
 import requests from '../Requests';
+// import Footer from '../Footer';
 
-function HomeScreen() {
+const HomeScreen = () => {
   return (
     <div className="homeScreen">
       <Nav />
@@ -22,6 +23,7 @@ function HomeScreen() {
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      {/* <Footer /> */}
     </div>
   );
 }
